@@ -1,4 +1,5 @@
 <?php
+require_once 'db.php';
 require_once 'handlers.php';
 
 // Налаштування підключення до БД
@@ -33,7 +34,7 @@ $users_result = $conn->query("SELECT id, name, email, role FROM users ORDER BY i
         <!-- Секція Тварини -->
         <div class="section">
             <div class="section-header">
-                <h2>🐕 Список тварин</h2>
+                <h2>🐾 Список тварин</h2>
             </div>
             
             <table>
