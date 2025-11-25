@@ -190,11 +190,11 @@ input[type="number"] {
 }
 
 .user-section .section-header {
-    border-bottom-color: #2196F3;
+    border-bottom-color: oklab(38.690000000000005% 0.0363 -0.21544);
 }
 
 .user-section th {
-    background-color: #2196F3;
+    background-color: oklab(38.690000000000005% 0.0363 -0.21544);
 }
 
 /* Стилі для модальних вікон */
@@ -290,4 +290,8 @@ input[type="number"] {
 
 .btn-cancel:hover {
     background-color: #666;
+}
+
+.modal.show {
+  backdrop-filter: blur(4px);
 }

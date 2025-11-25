@@ -1,4 +1,7 @@
 <?php
+require_once 'db.php';
+global $conn;
+
 // Обробка видалення тварини
 if (isset($_GET['delete_animal'])) {
     $id = intval($_GET['delete_animal']);
