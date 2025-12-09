@@ -83,5 +83,6 @@ services:
       - --relay-log=mysql-relay-bin
     ports:
       - "3307:3306"
+
 volumes:
   db_data:
